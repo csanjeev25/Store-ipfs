@@ -22,3 +22,6 @@ When you post a file on IPFS network, it’s spread across the connected nodes. 
 
 ipfs pin add <hash_of_content> where hash of content are the entries you see above. When you do it, it’s not removed due to garbage collection process. You can also unpin by running ipfs pin rm <hash_content>
 
+ipfsapi is python wrapper for the same, for more info visit:
+https://github.com/ipfs/py-ipfs-api
+
