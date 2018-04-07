@@ -1,6 +1,5 @@
 # Store-ipfs
 A python script to store our contect over distributed decentralised netowrk using ipfs.
-Ipfs:
 
 What is IPFS?
 
