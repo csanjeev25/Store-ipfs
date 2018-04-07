@@ -30,7 +30,7 @@ if __name__ == "__main__":
 			key = input("Please enter key : ")
 			_type = input("Enter file type : ")
 			ipfs_api.cat(key)
-			call("mv " + str(key) + str(_type)) #Linux
+			#call("mv " + str(key) + str(_type)) #Linux
 			call("rename " + str(key) + str(_type))
 		if choice == '3':
 			choice3 = input("1.Upload by file type 2.upload all : ")
